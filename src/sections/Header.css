@@ -1,0 +1,25 @@
+.header-container {
+    background-color: #ede9e0;
+}
+
+/* .header-container img {
+    width: 300px;
+    padding: 30px;
+} */
+
+/* .technologies a img {
+    padding: 1px;
+} */
+
+.react {
+    width: 55px;
+    height: 20px;
+}
+
+.mongo {
+    width: 66px;
+    height: 22px;
+    border-radius: 3px;
+}
+
+@media screen and (min-width:500px) {}
