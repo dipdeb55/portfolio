@@ -25,11 +25,6 @@ const Header = () => {
         toast.success('Your Message sent successfully. I will contact you soon')
     };
 
-    const message = () => {
-        return (
-            <p>Your Message sent successfully. I will contact you soon</p>
-        )
-    }
 
     return (
         <div className='header-container'>
@@ -119,7 +114,6 @@ const Header = () => {
                         <input type="text" name='message' class="form-control" id="exampleInputPassword1" />
                     </div>
                     <button type="submit" class="btn btn-primary">Submit</button>
-                    <h2 className="text-xl text-green-600 m-2">  {result ? <message /> : null}</h2>
                 </form>
             </div>
         </div>
